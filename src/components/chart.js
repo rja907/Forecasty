@@ -9,7 +9,7 @@ function average(data){
 export default (props) => {
   return (
     <div>
-    <Sparklines svgHeight={100} svgWidth={120} data={props.data}>
+    <Sparklines height={200} width={300} data={props.data}>
       <SparklinesLine color={props.color} />
       <SparklinesReferenceLine type="avg" />
     </Sparklines>
