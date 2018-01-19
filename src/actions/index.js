@@ -7,6 +7,10 @@ export const FETCH_WEATHER = 'FETCH_WEATHER';
 export function fetchWeather(city){
   const url = `${ROOT_URL}&q=${city},us`;
   const request = axios.get(url);
+  //Here, request is a promise. It doesn't contain actual data!
+  //We use ReduxPromise as a Middleware give it some data that then
+  //goes to the reducer and returns the data!
+  //console.log('Request:', request);
   //action creator
   return {
     type: FETCH_WEATHER,

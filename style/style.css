@@ -1,0 +1,17 @@
+.container{
+  background-color: #1E3856;
+}
+.main{
+  color: white;
+}
+td, th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+.input-group {
+  margin: 20px 0px;
+}
+
+svg {
+  height:150px;
+}
