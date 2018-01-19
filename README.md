@@ -16,7 +16,7 @@ Used to show the map focused on the city which was the input.
 
 If you want to check it out, go to the directory where you want to clone it and then:
 
-`git clone https://github.com/rja907/Youtube-Clone.git`
+`git clone https://github.com/rja907/Forecasty.git`
 
 `npm install`
 
